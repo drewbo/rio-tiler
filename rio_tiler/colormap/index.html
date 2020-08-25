@@ -11,21 +11,21 @@
         <meta name="description" content="Rasterio plugin to read mercator tiles from Cloud Optimized GeoTIFF">
       
       
-        <link rel="canonical" href="https://cogeotiff.github.io/rio-tiler/mosaic/">
+        <link rel="canonical" href="https://cogeotiff.github.io/rio-tiler/rio_tiler/colormap/">
       
       
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.7">
     
     
       
-        <title>Mosaic - rio-tiler</title>
+        <title>Colormap - rio-tiler</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.b8ac9624.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.b8ac9624.min.css">
       
-        <link rel="stylesheet" href="../assets/stylesheets/palette.28f3ef9a.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.28f3ef9a.min.css">
       
       
         
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#using-rio-tiler-with-mosaics" class="md-skip">
+        <a href="#module-rio_tilercolormap" class="md-skip">
           Skip to content
         </a>
       
@@ -90,7 +90,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Mosaic
+              Colormap
             
           </span>
         </div>
@@ -190,7 +190,7 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="Home" class="md-nav__link">
+    <a href="../.." title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -202,7 +202,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../v2_migration/" title="v2 Migration" class="md-nav__link">
+    <a href="../../v2_migration/" title="v2 Migration" class="md-nav__link">
       v2 Migration
     </a>
   </li>
@@ -212,109 +212,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Mosaic
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
-        </span>
-      </label>
-    
-    <a href="./" title="Mosaic" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../mosaic/" title="Mosaic" class="md-nav__link">
       Mosaic
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#using-rio-tiler-with-mosaics" class="md-nav__link">
-    Using rio-tiler with Mosaics
-  </a>
-  
-    <nav class="md-nav" aria-label="Using rio-tiler with Mosaics">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#api" class="md-nav__link">
-    API
-  </a>
-  
-    <nav class="md-nav" aria-label="API">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    Examples
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#the-mosaicmethod-interface" class="md-nav__link">
-    The MosaicMethod interface
-  </a>
-  
-    <nav class="md-nav" aria-label="The MosaicMethod interface">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#writing-your-own-pixel-selection-method" class="md-nav__link">
-    Writing your own Pixel Selection method
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#smart-multi-threading" class="md-nav__link">
-    Smart Multi-Threading
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#more-on-threading" class="md-nav__link">
-    More on threading
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -324,7 +226,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../dynamic_tiler/" title="Dynamic Tiling" class="md-nav__link">
+    <a href="../../dynamic_tiler/" title="Dynamic Tiling" class="md-nav__link">
       Dynamic Tiling
     </a>
   </li>
@@ -336,7 +238,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../colormap/" title="Colormaps" class="md-nav__link">
+    <a href="../../colormap/" title="Colormaps" class="md-nav__link">
       Colormaps
     </a>
   </li>
@@ -346,10 +248,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
     
     <label class="md-nav__link" for="nav-6">
       API
@@ -398,7 +302,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/io/base/" title="Base" class="md-nav__link">
+    <a href="../io/base/" title="Base" class="md-nav__link">
       Base
     </a>
   </li>
@@ -410,7 +314,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/io/cogeo/" title="COG" class="md-nav__link">
+    <a href="../io/cogeo/" title="COG" class="md-nav__link">
       COG
     </a>
   </li>
@@ -422,7 +326,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/io/stac/" title="STAC" class="md-nav__link">
+    <a href="../io/stac/" title="STAC" class="md-nav__link">
       STAC
     </a>
   </li>
@@ -464,7 +368,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/mosaic/reader/" title="Reader" class="md-nav__link">
+    <a href="../mosaic/reader/" title="Reader" class="md-nav__link">
       Reader
     </a>
   </li>
@@ -501,7 +405,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/mosaic/methods/base/" title="Base" class="md-nav__link">
+    <a href="../mosaic/methods/base/" title="Base" class="md-nav__link">
       Base
     </a>
   </li>
@@ -513,7 +417,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/mosaic/methods/defaults/" title="Defaults" class="md-nav__link">
+    <a href="../mosaic/methods/defaults/" title="Defaults" class="md-nav__link">
       Defaults
     </a>
   </li>
@@ -533,11 +437,154 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../rio_tiler/colormap/" title="Colormap" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Colormap
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Colormap" class="md-nav__link md-nav__link--active">
       Colormap
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#variables" class="md-nav__link">
+    Variables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    Functions
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#apply_cmap" class="md-nav__link">
+    apply_cmap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apply_discrete_cmap" class="md-nav__link">
+    apply_discrete_cmap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get_colormap" class="md-nav__link">
+    get_colormap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#make_lut" class="md-nav__link">
+    make_lut
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classes" class="md-nav__link">
+    Classes
+  </a>
+  
+    <nav class="md-nav" aria-label="Classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#colormaps" class="md-nav__link">
+    ColorMaps
+  </a>
+  
+    <nav class="md-nav" aria-label="ColorMaps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    Methods
+  </a>
+  
+    <nav class="md-nav" aria-label="Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get" class="md-nav__link">
+    get
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list" class="md-nav__link">
+    list
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#register" class="md-nav__link">
+    register
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -547,7 +594,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/constants/" title="Constants" class="md-nav__link">
+    <a href="../constants/" title="Constants" class="md-nav__link">
       Constants
     </a>
   </li>
@@ -559,7 +606,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/errors/" title="Errors" class="md-nav__link">
+    <a href="../errors/" title="Errors" class="md-nav__link">
       Errors
     </a>
   </li>
@@ -571,7 +618,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/expression/" title="Expression" class="md-nav__link">
+    <a href="../expression/" title="Expression" class="md-nav__link">
       Expression
     </a>
   </li>
@@ -583,7 +630,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/mercator/" title="Mercator" class="md-nav__link">
+    <a href="../mercator/" title="Mercator" class="md-nav__link">
       Mercator
     </a>
   </li>
@@ -595,7 +642,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/profiles/" title="Profiles" class="md-nav__link">
+    <a href="../profiles/" title="Profiles" class="md-nav__link">
       Profiles
     </a>
   </li>
@@ -607,7 +654,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/reader/" title="Reader" class="md-nav__link">
+    <a href="../reader/" title="Reader" class="md-nav__link">
       Reader
     </a>
   </li>
@@ -619,7 +666,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/tasks/" title="Tasks" class="md-nav__link">
+    <a href="../tasks/" title="Tasks" class="md-nav__link">
       Tasks
     </a>
   </li>
@@ -631,7 +678,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../rio_tiler/utils/" title="Utils" class="md-nav__link">
+    <a href="../utils/" title="Utils" class="md-nav__link">
       Utils
     </a>
   </li>
@@ -656,6 +703,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon">
@@ -666,24 +715,44 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#using-rio-tiler-with-mosaics" class="md-nav__link">
-    Using rio-tiler with Mosaics
+  <a href="#variables" class="md-nav__link">
+    Variables
   </a>
   
-    <nav class="md-nav" aria-label="Using rio-tiler with Mosaics">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    Functions
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#api" class="md-nav__link">
-    API
+  <a href="#apply_cmap" class="md-nav__link">
+    apply_cmap
   </a>
   
-    <nav class="md-nav" aria-label="API">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    Examples
+  <a href="#apply_discrete_cmap" class="md-nav__link">
+    apply_discrete_cmap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get_colormap" class="md-nav__link">
+    get_colormap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#make_lut" class="md-nav__link">
+    make_lut
   </a>
   
 </li>
@@ -692,33 +761,54 @@
     </nav>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#the-mosaicmethod-interface" class="md-nav__link">
-    The MosaicMethod interface
+      
+        <li class="md-nav__item">
+  <a href="#classes" class="md-nav__link">
+    Classes
   </a>
   
-    <nav class="md-nav" aria-label="The MosaicMethod interface">
+    <nav class="md-nav" aria-label="Classes">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#writing-your-own-pixel-selection-method" class="md-nav__link">
-    Writing your own Pixel Selection method
+  <a href="#colormaps" class="md-nav__link">
+    ColorMaps
+  </a>
+  
+    <nav class="md-nav" aria-label="ColorMaps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    Methods
+  </a>
+  
+    <nav class="md-nav" aria-label="Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get" class="md-nav__link">
+    get
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#smart-multi-threading" class="md-nav__link">
-    Smart Multi-Threading
+  <a href="#list" class="md-nav__link">
+    list
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#more-on-threading" class="md-nav__link">
-    More on threading
+  <a href="#register" class="md-nav__link">
+    register
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -744,7 +834,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/cogeotiff/rio-tiler/blob/master/docs/src/mosaic.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/cogeotiff/rio-tiler/blob/master/docs/src/rio_tiler/colormap.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -752,132 +842,141 @@
                   
                 
                 
-                  <h1>Mosaic</h1>
-                
-                <h2 id="using-rio-tiler-with-mosaics">Using <code>rio-tiler</code> with Mosaics<a class="headerlink" href="#using-rio-tiler-with-mosaics" title="Permanent link">&para;</a></h2>
-<p><img alt="" src="https://user-images.githubusercontent.com/10407788/57467798-30505800-7251-11e9-9bde-6f50801dc851.png" /></p>
-<p>The <code>rio-tiler-mosaic</code> library has been moved into <code>rio-tiler</code>. The goal of the
-<code>rio_tiler.mosaic</code> module is to create a mercator tile from <em>multiple</em>
-observations. This is useful when a source image doesn't fill the entire
-mercator tile of interest.</p>
-<p>Often when creating a mercator tile from multiple assets, there will be portions
-of overlap where a pixel could be chosen from multiple datasets. To handle this,
-the <code>rio-tiler.mosaic</code> module provides <em>pixel selection methods</em> which define
-how to handle these cases for each pixel:</p>
-<ul>
-<li><strong>First</strong>: select value from the first non-missing asset</li>
-<li><strong>Highest</strong>: loop though all the assets and return the highest value</li>
-<li><strong>Lowest</strong>: loop though all the assets and return the lowest value</li>
-<li><strong>Mean</strong>: compute the mean value of the whole stack</li>
-<li><strong>Median</strong>: compute the median value of the whole stack</li>
-</ul>
-<h3 id="api">API<a class="headerlink" href="#api" title="Permanent link">&para;</a></h3>
-<p><code>rio_tiler.mosaic.mosaic_reader(assets, tiler, *args* pixel_selection=None, chunk_size=None, Threads=10, **kwargs)</code></p>
-<p>Inputs:</p>
-<ul>
-<li>assets : list, tuple of rio-tiler compatible assets (url or sceneid)</li>
-<li>tiler: Callable that returns a tuple of <code>numpy.array</code> (e.g <code>tile, mask = rio_tiler.reader.tile(x, y, z, **kwargs)</code>)</li>
-<li>*args: tiler specific arguments.</li>
-<li>pixel_selection : optional <strong>pixel selection</strong> algorithm (default: "first").</li>
-<li>chunk_size: optional, control the number of asset to process per loop.</li>
-<li>**kwargs: tiler specific keyword arguments.</li>
-</ul>
-<p>Returns:
-- (tile, mask), assets_used : tuple of ndarray Return (tile and mask) data and the list of used assets.</p>
-<h4 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h4>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">rio_tiler.io</span> <span class="kn">import</span> <span class="n">COGReader</span>
-<span class="kn">from</span> <span class="nn">rio_tiler.mosaic</span> <span class="kn">import</span> <span class="n">mosaic_reader</span>
-<span class="kn">from</span> <span class="nn">rio_tiler.mosaic.methods</span> <span class="kn">import</span> <span class="n">defaults</span>
+                <h1 id="module-rio_tilercolormap">Module rio_tiler.colormap<a class="headerlink" href="#module-rio_tilercolormap" title="Permanent link">&para;</a></h1>
+<p>rio-tiler colormap functions.</p>
+<h2 id="variables">Variables<a class="headerlink" href="#variables" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="n">EMPTY_COLORMAP</span>
+</code></pre></div>
 
+<div class="highlight"><pre><span></span><code><span class="n">cmap</span>
+</code></pre></div>
 
-<span class="k">def</span> <span class="nf">tiler</span><span class="p">(</span><span class="n">src_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="n">numpy</span><span class="o">.</span><span class="n">ndarray</span><span class="p">,</span> <span class="n">numpy</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]:</span>
-    <span class="k">with</span> <span class="n">COGReader</span><span class="p">(</span><span class="n">src_path</span><span class="p">)</span> <span class="k">as</span> <span class="n">cog</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">cog</span><span class="o">.</span><span class="n">tile</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<h2 id="functions">Functions<a class="headerlink" href="#functions" title="Permanent link">&para;</a></h2>
+<h3 id="apply_cmap">apply_cmap<a class="headerlink" href="#apply_cmap" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">apply_cmap</span><span class="p">(</span>
+    <span class="n">data</span><span class="p">:</span> <span class="n">numpy</span><span class="o">.</span><span class="n">ndarray</span><span class="p">,</span>
+    <span class="n">colormap</span><span class="p">:</span> <span class="n">Dict</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="n">numpy</span><span class="o">.</span><span class="n">ndarray</span><span class="p">,</span> <span class="n">numpy</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Apply colormap on tile data.
 
-<span class="n">assets</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;mytif1.tif&quot;</span><span class="p">,</span> <span class="s2">&quot;mytif2.tif&quot;</span><span class="p">,</span> <span class="s2">&quot;mytif3.tif&quot;</span><span class="p">]</span>
-<span class="n">tile</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
-<span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="n">tile</span>
+Attributes
+----------
+data : numpy ndarray
+    1D image array to translate to RGB.
+colormap : dict
+    GDAL RGBA Color Table dictionary.
 
-<span class="c1"># Use Default First value method</span>
-<span class="n">mosaic_reader</span><span class="p">(</span><span class="n">assets</span><span class="p">,</span> <span class="n">tiler</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span>
+Returns
+-------
+data : numpy.ndarray
+    RGB data.
+mask: numpy.ndarray
+    Alpha band.
+</code></pre></div></p>
+<h3 id="apply_discrete_cmap">apply_discrete_cmap<a class="headerlink" href="#apply_discrete_cmap" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">apply_discrete_cmap</span><span class="p">(</span>
+    <span class="n">data</span><span class="p">:</span> <span class="n">numpy</span><span class="o">.</span><span class="n">ndarray</span><span class="p">,</span>
+    <span class="n">colormap</span><span class="p">:</span> <span class="n">Dict</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="n">numpy</span><span class="o">.</span><span class="n">ndarray</span><span class="p">,</span> <span class="n">numpy</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Apply discrete colormap.
 
-<span class="c1"># Use Highest value: defaults.HighestMethod()</span>
-<span class="n">mosaic_reader</span><span class="p">(</span>
-    <span class="n">assets</span><span class="p">,</span>
-    <span class="n">tiler</span><span class="p">,</span>
-    <span class="n">x</span><span class="p">,</span>
-    <span class="n">y</span><span class="p">,</span>
-    <span class="n">z</span><span class="p">,</span>
-    <span class="n">pixel_selection</span><span class="o">=</span><span class="n">defaults</span><span class="o">.</span><span class="n">HighestMethod</span><span class="p">()</span>
+Note: This method is not used by default and left
+      to users to use within custom render methods.
+
+Attributes
+----------
+data : numpy ndarray
+    1D image array to translate to RGB.
+color_map: dict
+    Discrete ColorMap dictionary
+    e.g:
+    {
+        1: [255, 255, 255],
+        2: [255, 0, 0]
+    }
+
+Returns
+-------
+arr: numpy.ndarray
+</code></pre></div></p>
+<h3 id="get_colormap">get_colormap<a class="headerlink" href="#get_colormap" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_colormap</span><span class="p">(</span>
+    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Return colormap dict.
+
+Attributes
+----------
+name : str, optional
+    Colormap name (default: cfastie)
+
+Returns
+-------
+colormap : dict
+    GDAL RGBA Color Table dictionary.
+</code></pre></div></p>
+<h3 id="make_lut">make_lut<a class="headerlink" href="#make_lut" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">make_lut</span><span class="p">(</span>
+    <span class="n">colormap</span><span class="p">:</span> <span class="n">Dict</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">numpy</span><span class="o">.</span><span class="n">ndarray</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Create a lookup table numpy.ndarray from a GDAL RGBA Color Table dictionary.
+
+Attributes
+----------
+colormap : dict
+    GDAL RGBA Color Table dictionary.
+
+Returns
+-------
+lut : numpy.ndarray
+    colormap lookup table
+</code></pre></div></p>
+<h2 id="classes">Classes<a class="headerlink" href="#classes" title="Permanent link">&para;</a></h2>
+<h3 id="colormaps">ColorMaps<a class="headerlink" href="#colormaps" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">ColorMaps</span><span class="p">(</span>
+
 <span class="p">)</span>
+</code></pre></div>
 
-<span class="c1"># Use Lowest value: defaults.LowestMethod()</span>
-<span class="n">mosaic_reader</span><span class="p">(</span>
-    <span class="n">assets</span><span class="p">,</span>
-    <span class="n">tiler</span><span class="p">,</span>
-    <span class="n">x</span><span class="p">,</span>
-    <span class="n">y</span><span class="p">,</span>
-    <span class="n">z</span><span class="p">,</span>
-    <span class="n">pixel_selection</span><span class="o">=</span><span class="n">defaults</span><span class="o">.</span><span class="n">LowestMethod</span><span class="p">()</span>
+<div class="highlight"><pre><span></span><code>Default Colormaps holder.
+</code></pre></div>
+
+<h4 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h4>
+<h5 id="get">get<a class="headerlink" href="#get" title="Permanent link">&para;</a></h5>
+<p><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Fetch a colormap.
+</code></pre></div></p>
+<h5 id="list">list<a class="headerlink" href="#list" title="Permanent link">&para;</a></h5>
+<p><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">list</span><span class="p">(</span>
+    <span class="bp">self</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>List registered Colormaps.
+</code></pre></div></p>
+<h5 id="register">register<a class="headerlink" href="#register" title="Permanent link">&para;</a></h5>
+<p><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">register</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">custom_cmap</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">Dict</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span>
 <span class="p">)</span>
 </code></pre></div>
+<div class="highlight"><pre><span></span><code>Register a custom colormap.
 
-<h3 id="the-mosaicmethod-interface">The <code>MosaicMethod</code> interface<a class="headerlink" href="#the-mosaicmethod-interface" title="Permanent link">&para;</a></h3>
-<p>the <code>rio_tiler.mosaic.methods.base.MosaicMethodBase</code> class defines an abstract
-interface for all <code>pixel selection</code> methods allowed by <code>rio_tiler.mosaic.mosaic_reader</code>. its methods and properties are:</p>
-<ul>
-<li><code>is_done</code>: property, returns a boolean indicating if the process is done filling the tile</li>
-<li><code>data</code>: property, returns the output <strong>tile</strong> and <strong>mask</strong> numpy arrays</li>
-<li><code>feed(tile: numpy.ma.ndarray)</code>: method, update the tile</li>
-</ul>
-<p>The MosaicMethodBase class is not intended to be used directly but as an abstract base class, a template for concrete implementations.</p>
-<h4 id="writing-your-own-pixel-selection-method">Writing your own Pixel Selection method<a class="headerlink" href="#writing-your-own-pixel-selection-method" title="Permanent link">&para;</a></h4>
-<p>The rules for writing your own <code>pixel selection algorithm</code> class are as follows:</p>
-<ul>
-<li>Must inherit from MosaicMethodBase</li>
-<li>Must provide concrete implementations of all the above methods.</li>
-</ul>
-<p>See <a href="/rio_tiler/mosaic/methods/defaults.py">rio_tiler.mosaic.methods.defaults</a> classes for examples.</p>
-<h4 id="smart-multi-threading">Smart Multi-Threading<a class="headerlink" href="#smart-multi-threading" title="Permanent link">&para;</a></h4>
-<p>When dealing with an important number of image, you might not want to process the whole stack, especially if the pixel selection method stops when the tile is filled. To allow better optimization, <code>rio_tiler.mosaic.mosaic_reader</code> is fetching the tiles in parallel (threads) but to limit the number of files we also embeded the fetching in a loop (creating 2 level of processing):</p>
-<p><div class="highlight"><pre><span></span><code><span class="n">assets</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;1.tif&quot;</span><span class="p">,</span> <span class="s2">&quot;2.tif&quot;</span><span class="p">,</span> <span class="s2">&quot;3.tif&quot;</span><span class="p">,</span> <span class="s2">&quot;4.tif&quot;</span><span class="p">,</span> <span class="s2">&quot;5.tif&quot;</span><span class="p">,</span> <span class="s2">&quot;6.tif&quot;</span><span class="p">]</span>
-
-<span class="c1"># 1st level loop - Creates chuncks of assets</span>
-<span class="k">for</span> <span class="n">chunks</span> <span class="ow">in</span> <span class="n">_chunks</span><span class="p">(</span><span class="n">assets</span><span class="p">,</span> <span class="n">chunk_size</span><span class="p">):</span>
-
-    <span class="c1"># 2nd level loop - Uses threads for process each `chunck`</span>
-    <span class="k">with</span> <span class="n">futures</span><span class="o">.</span><span class="n">ThreadPoolExecutor</span><span class="p">(</span><span class="n">max_workers</span><span class="o">=</span><span class="n">max_threads</span><span class="p">)</span> <span class="k">as</span> <span class="n">executor</span><span class="p">:</span>
-        <span class="n">future_tasks</span> <span class="o">=</span> <span class="p">[(</span><span class="n">executor</span><span class="o">.</span><span class="n">submit</span><span class="p">(</span><span class="n">_tiler</span><span class="p">,</span> <span class="n">asset</span><span class="p">),</span> <span class="n">asset</span><span class="p">)</span> <span class="k">for</span> <span class="n">asset</span> <span class="ow">in</span> <span class="n">chunks</span><span class="p">]</span>
-</code></pre></div>
-By default the chunck_size is equal to the number or threads (or the number of assets if no threads=0)</p>
-<h4 id="more-on-threading">More on threading<a class="headerlink" href="#more-on-threading" title="Permanent link">&para;</a></h4>
-<p>The number of threads used can be set in the function call with the <code>threads=</code> options. By default it will be equal to <code>multiprocessing.cpu_count() * 5</code> or to the MAX_THREADS environment variable.
-In some case, threading can slow down your application. You can set threads to <code>0</code> or <code>1</code> to run the tiler in a loop without using a ThreadPool.</p>
-<p>Benchmark:
-<div class="highlight"><pre><span></span><code>--------------------------------- benchmark &#39;1images&#39;: 6 tests ---------------------------------
-Name (time in ms)         Min                Max               Mean             Median
-------------------------------------------------------------------------------------------------
-1images-0threads      64.3108 (1.0)      66.9192 (1.0)      65.0202 (1.0)      64.9370 (1.0)
-1images-4threads      69.0893 (1.07)     70.9919 (1.06)     69.6718 (1.07)     69.5102 (1.07)
-1images-1threads      69.4884 (1.08)     71.8967 (1.07)     70.0853 (1.08)     69.9804 (1.08)
-1images-5threads      69.5552 (1.08)     75.5498 (1.13)     71.7882 (1.10)     70.9849 (1.09)
-1images-3threads      69.7684 (1.08)     74.4098 (1.11)     70.6282 (1.09)     70.2353 (1.08)
-1images-2threads      69.9258 (1.09)     73.8798 (1.10)     70.8861 (1.09)     70.3682 (1.08)
-------------------------------------------------------------------------------------------------
-
------------------------------------ benchmark &#39;5images&#39;: 6 tests -----------------------------------
-Name (time in ms)          Min                 Max                Mean              Median
-----------------------------------------------------------------------------------------------------
-5images-5threads      104.1609 (1.0)      123.4442 (1.0)      110.4130 (1.0)      110.0683 (1.0)
-5images-4threads      160.0952 (1.54)     170.7994 (1.38)     163.6062 (1.48)     161.8923 (1.47)
-5images-3threads      161.2354 (1.55)     172.0363 (1.39)     165.1222 (1.50)     164.6513 (1.50)
-5images-2threads      214.2413 (2.06)     220.7737 (1.79)     217.7740 (1.97)     217.9166 (1.98)
-5images-0threads      228.2062 (2.19)     242.9397 (1.97)     231.9848 (2.10)     229.2843 (2.08)
-5images-1threads      248.6630 (2.39)     251.8809 (2.04)     250.5195 (2.27)     251.2667 (2.28)
-----------------------------------------------------------------------------------------------------
-</code></pre></div>
-ref: <a href="https://github.com/cogeotiff/rio-tiler/issues/207#issuecomment-665958838">github.com/cogeotiff/rio-tiler/issues/207#issuecomment-665958838</a></p>
-<p>As mentioned in #207, using ThreadPool with 1 thread is always slower than not using thread.</p>
+Attributes
+----------
+name : str
+    Name of the colormap.
+custom_cmap: dict or str
+    A dict or a path to a numpy file
+</code></pre></div></p>
                 
               
               
@@ -896,7 +995,7 @@ ref: <a href="https://github.com/cogeotiff/rio-tiler/issues/207#issuecomment-665
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../v2_migration/" title="v2 Migration" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../mosaic/methods/defaults/" title="Defaults" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -905,19 +1004,19 @@ ref: <a href="https://github.com/cogeotiff/rio-tiler/issues/207#issuecomment-665
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                v2 Migration
+                Defaults
               </div>
             </div>
           </a>
         
         
-          <a href="../dynamic_tiler/" title="Dynamic Tiling" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../constants/" title="Constants" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Dynamic Tiling
+                Constants
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
@@ -975,15 +1074,15 @@ ref: <a href="https://github.com/cogeotiff/rio-tiler/issues/207#issuecomment-665
       
     </div>
     
-      <script src="../assets/javascripts/vendor.d1f5a259.min.js"></script>
-      <script src="../assets/javascripts/bundle.d5fec882.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/vendor.d1f5a259.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d5fec882.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
-          base: "..",
+          base: "../..",
           features: [],
           search: Object.assign({
-            worker: "../assets/javascripts/worker/search.fae956e7.min.js"
+            worker: "../../assets/javascripts/worker/search.fae956e7.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>

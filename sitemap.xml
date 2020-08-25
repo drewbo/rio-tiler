@@ -19,5 +19,65 @@
      <loc>https://cogeotiff.github.io/rio-tiler/colormap/</loc>
      <lastmod>2020-08-25</lastmod>
      <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/io/base/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/io/cogeo/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/io/stac/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/mosaic/reader/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/mosaic/methods/base/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/mosaic/methods/defaults/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/colormap/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/constants/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/errors/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/expression/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/mercator/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/profiles/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/reader/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/tasks/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://cogeotiff.github.io/rio-tiler/rio_tiler/utils/</loc>
+     <lastmod>2020-08-25</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>
