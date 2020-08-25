@@ -624,18 +624,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../../constants/" title="Constants" class="md-nav__link">
-      Constants
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../../errors/" title="Errors" class="md-nav__link">
       Errors
     </a>
@@ -923,7 +911,7 @@
     <span class="n">maxzoom</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">30</span><span class="p">,</span>
     <span class="n">include_assets</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">NoneType</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="n">exclude_assets</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">NoneType</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
-    <span class="n">include_asset_types</span><span class="p">:</span> <span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;image/tiff&#39;</span><span class="p">,</span> <span class="s1">&#39;image/x.geotiff&#39;</span><span class="p">,</span> <span class="s1">&#39;application/x-hdf&#39;</span><span class="p">,</span> <span class="s1">&#39;image/jp2&#39;</span><span class="p">,</span> <span class="s1">&#39;image/tiff; application=geotiff&#39;</span><span class="p">,</span> <span class="s1">&#39;image/vnd.stac.geotiff; cloud-optimized=true&#39;</span><span class="p">,</span> <span class="s1">&#39;image/tiff; application=geotiff; profile=cloud-optimized&#39;</span><span class="p">,</span> <span class="s1">&#39;application/x-hdf5&#39;</span><span class="p">},</span>
+    <span class="n">include_asset_types</span><span class="p">:</span> <span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;image/tiff; application=geotiff; profile=cloud-optimized&#39;</span><span class="p">,</span> <span class="s1">&#39;image/vnd.stac.geotiff; cloud-optimized=true&#39;</span><span class="p">,</span> <span class="s1">&#39;image/tiff&#39;</span><span class="p">,</span> <span class="s1">&#39;image/tiff; application=geotiff&#39;</span><span class="p">,</span> <span class="s1">&#39;image/x.geotiff&#39;</span><span class="p">,</span> <span class="s1">&#39;application/x-hdf5&#39;</span><span class="p">,</span> <span class="s1">&#39;image/jp2&#39;</span><span class="p">,</span> <span class="s1">&#39;application/x-hdf&#39;</span><span class="p">},</span>
     <span class="n">exclude_asset_types</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">NoneType</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="n">reader</span><span class="p">:</span> <span class="n">Type</span><span class="p">[</span><span class="n">rio_tiler</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">base</span><span class="o">.</span><span class="n">BaseReader</span><span class="p">]</span> <span class="o">=</span> <span class="o">&lt;</span><span class="k">class</span> <span class="err">&#39;</span><span class="nc">rio_tiler</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">cogeo</span><span class="o">.</span><span class="n">COGReader</span><span class="s1">&#39;&gt;,</span>
     <span class="n">reader_options</span><span class="p">:</span> <span class="n">Dict</span> <span class="o">=</span> <span class="n">NOTHING</span>
